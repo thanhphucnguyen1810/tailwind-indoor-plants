@@ -4,12 +4,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "preview": "npx serve ."
   },
   "keywords": [],
-  "author": "thanhphucnguyen-dev",
+  "author": "thanhphucnguyen1810",
   "license": "ISC",
-  "description": "thanhphucnguyen-dev",
+  "description": "thanhphucnguyen1810",
   "devDependencies": {
     "tailwindcss": "^3.4.19"
   }
